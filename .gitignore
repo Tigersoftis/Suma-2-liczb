@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main() 
+{
+	int a, b;
+	cout << "Jest to program obliczajacy sume dwoch liczb \n \n";
+	cout << "Podaj pierwsza liczbe:   ";
+	cin >> a;
+	cout << "\n Podaj druga liczbe:   ";
+	cin >> b;
+	cout << "\n Suma liczby " << a << " i liczby " << b << " wynosi " << a+b << endl << endl << endl;
+	cout << "Created by Tigersoft \n \n";
+	system ("pause");
+	return 0;
+}
